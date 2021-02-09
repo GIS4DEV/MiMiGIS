@@ -17,3 +17,6 @@ Makefile
 
 # Plugin Builder Tool
 pb_tool.cfg
+
+# plugin upload file
+plugin_upload.py
