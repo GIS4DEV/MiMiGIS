@@ -14,3 +14,6 @@ scripts/
 
 # Makefile
 Makefile
+
+# Plugin Builder Tool
+pb_tool.cfg
