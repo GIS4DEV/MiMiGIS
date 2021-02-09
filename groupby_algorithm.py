@@ -218,7 +218,7 @@ class GroupByAlgorithm(QgsProcessingAlgorithm):
         self.addParameter(
             QgsProcessingParameterFeatureSink(
                 self.OUTPUT,
-                self.tr('Grouped')
+                self.tr('Grouped Output')
                 )
             )
 

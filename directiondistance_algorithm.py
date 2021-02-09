@@ -160,7 +160,7 @@ class DirectionDistanceAlgorithm(QgsProcessingAlgorithm):
         self.addParameter(
             QgsProcessingParameterFeatureSink(
                 'OUTPUT',
-                self.tr('Output')
+                self.tr('Dir/Dist Output')
                 )
             )
 
