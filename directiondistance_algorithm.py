@@ -102,7 +102,7 @@ class DirectionDistanceAlgorithm(QgsProcessingAlgorithm):
             Prefix:\nAlgorithm creates two new fields, one with suffix \'Dist\' for Distance\
             and one with suffix \'Dir\' for Direction. Enter a prefix to use for the field names,\
             such that you will not create duplicate fields in your output.\n\
-            Output:\nNew layer with direction and distance fields.\n\
+            Dir/Dist Output:\nNew layer with direction and distance fields.\n\
             Algorithm authors: Maja Cannavo and Joseph Holler')
 
     def helpUrl(self):

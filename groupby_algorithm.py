@@ -124,7 +124,8 @@ class GroupByAlgorithm(QgsProcessingAlgorithm):
             Sum: Calculate the sum of your summary field(s)?\n\
             Maximum: Calculate the maximum of your summary field(s)?\n\
             Minimum: Calculate the minimum of your summary field(s)?\n\
-            Output:\nGrouped: Grouped output. If you are not dissolving geometries,\
+            Output:\nGrouped Output: New layer with grouped features and summary statistics.\
+            If you are not dissolving geometries,\
             then save the output as a .csv .xlsx or database table.\n\
             Algorithm authors: Maja Cannavo and Joseph Holler')
 
