@@ -126,7 +126,7 @@ class GroupByAlgorithm(QgsProcessingAlgorithm):
             Minimum: Calculate the minimum of your summary field(s)?\n\
             Output:\nGrouped Output: New layer with grouped features and summary statistics.\
             If you are not dissolving geometries,\
-            then save the output as a .csv .xlsx or database table.\n\
+            then save the output as a .csv, .xlsx, or database table.\n\
             Algorithm authors: Maja Cannavo and Joseph Holler')
 
     def helpUrl(self):
