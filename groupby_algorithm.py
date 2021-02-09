@@ -49,7 +49,7 @@ from qgis.core import (QgsProcessing,
                         QgsProcessingParameterFeatureSource,
                         QgsProcessingParameterVectorDestination)
 
-# the path of the MimiGIS plugin folder
+# the path of the MiMiGIS plugin folder
 mimigis_path = os.path.dirname(__file__)
 
 
