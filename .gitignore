@@ -20,3 +20,6 @@ pb_tool.cfg
 
 # plugin upload file
 plugin_upload.py
+
+# .DS_Store
+.DS_Store
