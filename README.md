@@ -11,4 +11,4 @@ Direction and Distance tool([help](insert link here)):
 Calculates the distance and direction from an origin to a set of  input features.
 
 Plugin/algorithm icons--all under CC0 license from SVG Repo:
-[M icon](https://www.svgrepo.com/svg/5274/medium-size), [Sigma icon](https://www.svgrepo.com/svg/175093/sigma-maths), [Compass rose icon](https://www.svgrepo.com/svg/253234/wind-rose-compass)
+[M icon](https://www.svgrepo.com/svg/5274/medium-size), [sigma icon](https://www.svgrepo.com/svg/175093/sigma-maths), [compass rose icon](https://www.svgrepo.com/svg/253234/wind-rose-compass)
