@@ -17,6 +17,7 @@ Group features with common values in the group field(s). Optionally, dissolve ge
 Example Input | Example Output
 --- | ---
 ![](images/parcels_notdissolved_jpg.jpg) | ![](images/parcels_dissolved.jpg)
+![](tables/before_table.png) | ![](tables/after_table.png)
 
 
 Parameter | Description | Data Type
