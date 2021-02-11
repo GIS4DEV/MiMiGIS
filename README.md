@@ -12,11 +12,12 @@ Plugin/algorithm icons--all under CC0 license from SVG Repo:
 [M icon](https://www.svgrepo.com/svg/5274/medium-size), [sigma icon](https://www.svgrepo.com/svg/175093/sigma-maths), [compass rose icon](https://www.svgrepo.com/svg/253234/wind-rose-compass)
 
 ### Group By: 
-Group features with common values in the group field(s). Optionally, dissolve geometries and calculate summary statistics for numeric fields.<br><br>
+Group features with common values in the group field(s). Optionally, dissolve geometries and calculate summary statistics for numeric fields.
 
 Example Input | Example Output
 --- | ---
-![](images/parcels_notdissolved_jpg.jpg) | ![](images/parcels_dissolved.jpg)<br><br>
+![](images/parcels_notdissolved_jpg.jpg) | ![](images/parcels_dissolved.jpg)
+
 
 Parameter | Description | Data Type
 --- | --- | --- |
