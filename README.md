@@ -7,7 +7,7 @@
 Group By tool ([help](https://majacannavo.github.io/mimigis_documentation)):
 Group features with common values in the group field(s). Optionally, dissolve geometries and calculate summary statistics (average, count values, sum, maximum, minimum) for numeric fields.
 
-Direction and Distance tool([help](https://majacannavo.github.io/mimigis_documentation)):
+Direction and Distance tool ([help](https://majacannavo.github.io/mimigis_documentation)):
 Calculates the distance and direction from an origin to a set of  input features.
 
 Plugin/algorithm icons--all under CC0 license from SVG Repo:
