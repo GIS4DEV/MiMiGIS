@@ -14,6 +14,7 @@ Plugin/algorithm icons--all under CC0 license from SVG Repo:
 ### Group By: 
 Group features with common values in the group field(s). Optionally, dissolve geometries and calculate summary statistics for numeric fields.
 
+Example: Grouping parcels in Central Falls, RI, by zone (NE, NW, SE, or SW) and calculating count and sum for number of bedrooms and total value.
 Example Input | Example Output
 --- | ---
 ![](images/parcels_notdissolved_jpg.jpg) | ![](images/parcels_dissolved.jpg)
