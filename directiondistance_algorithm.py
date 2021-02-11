@@ -106,7 +106,7 @@ class DirectionDistanceAlgorithm(QgsProcessingAlgorithm):
             Algorithm authors: Maja Cannavo and Joseph Holler')
 
     def helpUrl(self):
-        return 'https://github.com/GIS4DEV/QGISmiddleburyAlgs'
+        return 'https://github.com/GIS4DEV/MiMiGIS'
 
     def createInstance(self):
         return DirectionDistanceAlgorithm()
