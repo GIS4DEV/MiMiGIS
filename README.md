@@ -11,7 +11,7 @@ Authors: [Maja Cannavo](mailto:mcannavo@middlebury.edu) and [Joseph Holler](mail
 Plugin/algorithm icons--all under CC0 license from SVG Repo:
 [M icon](https://www.svgrepo.com/svg/5274/medium-size), [sigma icon](https://www.svgrepo.com/svg/175093/sigma-maths), [compass rose icon](https://www.svgrepo.com/svg/253234/wind-rose-compass)
 
-### Group By: 
+## Group By: 
 Group features with common values in the group field(s). Optionally, dissolve geometries and calculate summary statistics for numeric fields.
 
 Example: Grouping parcels in Central Falls, RI, by zone (NE, NW, SE, or SW) and calculating count and sum for number of bedrooms and total value.
@@ -20,7 +20,7 @@ Example Input | Example Output
 ![](images/parcels_notdissolved_jpg.jpg) | ![](images/parcels_dissolved.jpg)
 ![](tables/before_table.png) | ![](tables/after_table.png)
 
-
+Algorithm Parameters:
 Parameter | Description | Data Type
 --- | --- | --- |
 Input layer | Input layer with features to be dissolved. | Vector
