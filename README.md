@@ -1,5 +1,5 @@
 # MiMiGIS (Middlebury Minimal GIS)
- This QGIS plugin, designed for use in introductory GIS courses, contains a Group By tool and a Direction and Distance tool, as well as installation of a set of Mapbox Maki icons and National Park Service (NPS) icons. The plugin was developed and tested using QGIS 3.10.9.
+ This QGIS plugin, designed for use in introductory GIS courses, contains a Group By tool and a Direction and Distance tool, as well as installation of a set of Mapbox Maki icons and National Park Service (NPS) icons. The plugin was developed and tested using QGIS 3.10.9; compatibility with older versions is not guaranteed.
 
  The Group By and Distance and Direction algorithms were written by Maja Cannavo and Joseph Holler, and the plugin was built by Maja Cannavo using [Plugin Builder](https://github.com/g-sherman/Qgis-Plugin-Builder).
  The Maki icons were downloaded [here](https://labs.mapbox.com/maki-icons/) from Mapbox, and the NPS icons were downloaded [here](https://www.nps.gov/carto/app/#!/maps/symbols) from NPS. Both sets of icons were then edited by Joe Holler to allow for color customization in QGIS.
