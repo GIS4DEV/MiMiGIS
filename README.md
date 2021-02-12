@@ -9,7 +9,7 @@ Authors: [Maja Cannavo](mailto:mcannavo@middlebury.edu) and [Joseph Holler](mail
 Plugin/algorithm icons--all under CC0 license from [SVG Repo](https://www.svgrepo.com/):
 [M icon](https://www.svgrepo.com/svg/5274/medium-size), [sigma icon](https://www.svgrepo.com/svg/175093/sigma-maths), [compass rose icon](https://www.svgrepo.com/svg/253234/wind-rose-compass)
 
-This plugin was developed and tested using QGIS 3.10.9; compatibility with older versions is not guaranteed.
+This plugin was developed and tested using QGIS 3.10.9; compatibility with other versions is not guaranteed.
 
 ## Group By:
 Group features with common values in the group field(s). Optionally, dissolve geometries and calculate summary statistics for numeric fields.
