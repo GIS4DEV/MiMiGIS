@@ -17,8 +17,8 @@ Group features with common values in the group field(s). Optionally, dissolve ge
 ### Example: Grouping parcels in Central Falls, RI, by zone (NE, NW, SE, or SW) and calculating feature count and average for number of bedrooms and total value.
 Example Input | Example Output
 --- | ---
-![](images/parcels_notdissolved_jpg.jpg) | ![](images/parcels_dissolved.jpg)
-![](tables/before_table.png) | ![](tables/after_table.png)
+![](markdown_visuals/images/parcels_notdissolved_jpg.jpg) | ![](markdown_visuals/images/parcels_dissolved.jpg)
+![](markdown_visuals/tables/before_table.png) | ![](markdown_visuals/tables/after_table.png)
 
 ### Algorithm Parameters:
 Parameter | Description | Data Type | Python Identifier
@@ -41,9 +41,9 @@ Calculates the distance (in meters) and direction (in degrees) from an origin to
 ### Example: Calculating direction and distance from Chicago's central business district to each of the city's census tracts.
 Example Direction Result | Example Distance Result
 --- | ---
-![](images/tracts_dir_jpg.jpg) | ![](images/tracts_dist_jpg.jpg)
+![](markdown_visuals/images/tracts_dir_jpg.jpg) | ![](markdown_visuals/images/tracts_dist_jpg.jpg)
 Example Input Attribute Table | Example Output Attribute Table
-![](tables/before_table_2.png) | ![](tables/after_table_2.png)
+![](markdown_visuals/tables/before_table_2.png) | ![](markdown_visuals/tables/after_table_2.png)
 
 ### Algorithm Parameters:
 Parameter | Description | Data Type | Python Identifier
