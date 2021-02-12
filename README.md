@@ -32,7 +32,7 @@ Count Values | Count non-null values in your summary field(s)? | Boolean | 'COUN
 Sum | Calculate the sum of your summary field(s)? | Boolean | 'SUM'
 Maximum | Calculate the maximum of your summary field(s)? | Boolean | 'MAXIMUM'
 Minimum | Calculate the minimum of your summary field(s)? | Boolean | 'MINIMUM'
-Grouped Output | Grouped output. If you are not dissolving geometries, then save the output as a .csv, .xlsx, or database table. | Feature Sink | 'OUTPUT'<br><br>
+Grouped Output | Grouped output. If you are not dissolving geometries, then save the output as a .csv, .xlsx, or database table. | Feature Sink | 'OUTPUT'<br><br><br><br><br><br><br>
 
 
 ## Direction and Distance:
