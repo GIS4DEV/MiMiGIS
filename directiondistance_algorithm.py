@@ -97,7 +97,8 @@ class DirectionDistanceAlgorithm(QgsProcessingAlgorithm):
         """
         Returns a localized short help string for the algorithm.
         """
-        return self.tr('Calculates the distance and direction from an origin to a set of  input features.\n\
+        return self.tr('Calculates the distance (in meters) and direction (in degrees)\
+            from an origin to a set of  input features.\n\
             Input layer:\nLayer of features for which to calculate the direction and distance from the origin.\n\
             Prefix:\nAlgorithm creates two new fields, one with suffix \'Dist\' for Distance\
             and one with suffix \'Dir\' for Direction. Enter a prefix to use for the field names,\
