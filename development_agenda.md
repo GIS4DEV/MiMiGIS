@@ -8,6 +8,6 @@
 ## Group By
   * output by default is "SQL Output" can this be changed?
   * document that all outputs get a featCount field counting the number of features in each group
-  * can output be forced to be a table?  Or should we just in the long-term have a table-only version of this that can also take a table as input?
+  * can output be forced to be a table?  Or should we just in the long-term have a table-only version of this that can also take a table as input? The best move might be a dissolved variant of this tool which always dissolves and must have a geometry input, and a table variant of this which always saves as simple tables and can accept tabular inputs.
   * not possible to run tool with "selected features only" option -- cannot find INPUT layer. This actually seems to be a limitation of the Execute SQL tool: it seems like it will only run for a whole layer. For now, perhaps the tool should accept only a layer, not a set of features.
   * this is also great!  Works in almost all cases I tested.
