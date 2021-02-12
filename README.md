@@ -42,9 +42,7 @@ Calculates the distance (in meters) and direction (in degrees) from an origin to
 Example Direction Result | Example Distance Result
 --- | ---
 ![](images/tracts_dir_jpg.jpg) | ![](images/tracts_dist_jpg.jpg)
-
 Example Input Attribute Table | Example Output Attribute Table
---- | ---
 ![](tables/before_table_2.png) | ![](tables/after_table_2.png)
 
 ### Algorithm Parameters:
