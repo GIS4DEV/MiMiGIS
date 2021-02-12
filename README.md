@@ -52,3 +52,6 @@ Input Layer | Layer of features for which to calculate direction and distance fr
 Origin | Origin feature from which to calculate direction and distance. | Vector | 'ORIGIN'
 Prefix | The algorithm creates two new fields, one with suffix 'Dist' for Distance and one with suffix 'Dir' for Direction. Enter a prefix to use for the field names, such that you will not create duplicate fields in your output. | String | 'PREFIX'
 Dir/Dist Output | New layer with direction and distance fields. | Feature Sink | 'OUTPUT'
+
+## Maki/NPS Icons:
+MiMiGIS.zip contains folders with the Maki and NPS icons. The plugin automatically adds the paths to these directories to the list of SVG paths in your QGIS preferences. For reference, the Maki icons are located at MiMiGIS/SVG/maki_icons, and the NPS icons at MiMiGIS/SVG/NPS_icons.
