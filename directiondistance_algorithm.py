@@ -45,7 +45,8 @@ from qgis.core import (QgsProcessing,
                         QgsFeature,
                         QgsCoordinateReferenceSystem,
                         QgsProcessingParameterFeatureSource,
-                        QgsProcessingUtils)
+                        QgsProcessingUtils,
+                        QgsProcessingParameterVectorLayer)
 
 # the path of the MiMiGIS plugin folder
 mimigis_path = os.path.dirname(__file__)
@@ -134,9 +135,9 @@ class DirectionDistanceAlgorithm(QgsProcessingAlgorithm):
 
         # input layer
         self.addParameter(
-            # because we use QgsProcessingParameterFeatureSource as input,
+            # if we use QgsProcessingParameterFeatureSource as input,
             # we will get the checkbox for "Selected Features Only" in the dialog
-            QgsProcessingParameterFeatureSource(
+            QgsProcessingParameterVectorLayer(
                 self.INPUT,
                 self.tr('Input Layer'),
                 # type is vector
@@ -145,7 +146,7 @@ class DirectionDistanceAlgorithm(QgsProcessingAlgorithm):
 
         # origin
         self.addParameter(
-            QgsProcessingParameterFeatureSource(
+            QgsProcessingParameterVectorLayer(
                 'ORIGIN',
                 'Origin',
                 # type is vector
