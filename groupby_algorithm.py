@@ -110,7 +110,8 @@ class GroupByAlgorithm(QgsProcessingAlgorithm):
         Returns a localized short help string for the algorithm.
         """
         return self.tr('Group features with common values in the group field(s).\
-            Optionally, dissolve geometries and calculate summary statistics for numeric fields.\n\
+            Optionally, dissolve geometries and calculate summary statistics for numeric fields.\
+            All outputs will have a "featCount" field with the number of features in each group.\n\
             Input parameters:\nInput layer: Input layer with features to be dissolved.\n\
             Group Fields: In which field(s) do you want to search for values with which to form the new groups?\
             A new group will be formed for each combination of values in the group field(s).\

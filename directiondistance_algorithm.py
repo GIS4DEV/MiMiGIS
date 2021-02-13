@@ -98,7 +98,9 @@ class DirectionDistanceAlgorithm(QgsProcessingAlgorithm):
         Returns a localized short help string for the algorithm.
         """
         return self.tr('Calculates the distance (in meters) and direction (in degrees)\
-            from an origin to a set of input features.\n\
+            from an origin to a set of input features. Distance calculation is ellipsoidal, \
+            using the WGS 1984 geographic coordinate system (EPSG:4326). \
+            Direction calculation uses the World Mercator projected coordinate system (EPSG:3395).\n\
             Input layer:\nLayer of features for which to calculate the direction and distance from the origin.\n\
             Origin:\nOrigin feature from which to calculate direction and distance.\n\
             Prefix:\nThe algorithm creates two new fields, one with suffix \'Dist\' for Distance\

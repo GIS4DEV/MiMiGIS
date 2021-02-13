@@ -14,7 +14,7 @@ Plugin/algorithm icons--all under CC0 license from [SVG Repo](https://www.svgrep
 This plugin was developed and tested using QGIS 3.10.9; compatibility with other versions is not guaranteed.
 
 ## Group By:
-Group features with common values in the group field(s). Optionally, dissolve geometries and calculate summary statistics for numeric fields.
+Group features with common values in the group field(s). Optionally, dissolve geometries and calculate summary statistics for numeric fields. All outputs will have a "featCount" field with the number of features in each group.
 
 ### Example: Grouping parcels in Central Falls, RI, by zone (NE, NW, SE, or SW) and calculating feature count and average for number of bedrooms and total value.
 Example Input | Example Output
@@ -38,7 +38,7 @@ Grouped Output | Grouped output. If you are not dissolving geometries, then save
 
 
 ## Direction and Distance:
-Calculates the distance (in meters) and direction (in degrees) from an origin to a set of input features.
+Calculates the distance (in meters) and direction (in degrees) from an origin to a set of input features. Distance calculation is ellipsoidal, using the WGS 1984 geographic coordinate system (EPSG:4326). Direction calculation uses the World Mercator projected coordinate system (EPSG:3395).
 
 ### Example: Calculating direction and distance from Chicago's central business district to each of the city's census tracts.
 Example Direction Result | Example Distance Result
