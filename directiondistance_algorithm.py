@@ -146,7 +146,7 @@ class DirectionDistanceAlgorithm(QgsProcessingAlgorithm):
 
         # origin
         self.addParameter(
-            QgsProcessingParameterVectorLayer(
+            QgsProcessingParameterFeatureSource(
                 'ORIGIN',
                 'Origin',
                 # type is vector
