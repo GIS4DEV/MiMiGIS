@@ -1,6 +1,7 @@
 # This file contains metadata for your plugin.
 
-# This file should be included when you package your plugin.# Mandatory items:
+# This file should be included when you package your plugin.
+# Mandatory items:
 
 [general]
 name=MiMiGIS
@@ -20,7 +21,8 @@ repository=https://github.com/GIS4DEV/MiMiGIS
 
 hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog=1.0: 
+	- First release of MiMiQGIS!
 
 # Tags are comma separated with spaces allowed
 tags=dissolve,svg icons,direction,azimuth,group
