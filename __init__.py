@@ -50,11 +50,17 @@ new_path_NPS = os.path.join(new_path, 'NPS_icons')
 new_paths = [new_path_maki, new_path_NPS]
 
 # if we don't already have these paths, add them
-for path in new_paths:
-    if path not in current_paths:
-        current_paths.append(path)
-        QgsSettings().setValue('svg/searchPathsForSVG', current_paths)
 
+# first, check to see if we have any current paths
+if current_paths:
+    for path in new_paths:
+        if path not in current_paths:
+            current_paths.append(path)
+            QgsSettings().setValue('svg/searchPathsForSVG', current_paths)
+
+# if not, set the SVG paths to new_paths 
+else:
+    QgsSettings().setValue('svg/searchPathsForSVG', new_paths)
 
 # noinspection PyPep8Naming
 def classFactory(iface):  # pylint: disable=invalid-name
