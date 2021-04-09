@@ -21,11 +21,12 @@ repository=https://github.com/GIS4DEV/MiMiGIS
 
 hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
-changelog=1.0: 
-	- First release of MiMiQGIS!
-changelog=1.0.1: 
+changelog=
+	1.0.1: 
 	- Fix bug for case where the user does not have any SVG paths yet
 	- Fix SVG code so that SVGs can still be used in Illustrator
+	1.0: 
+	- First release of MiMiQGIS!
 
 # Tags are comma separated with spaces allowed
 tags=dissolve,svg icons,direction,azimuth,group
