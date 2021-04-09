@@ -7,9 +7,9 @@
 name=MiMiGIS
 qgisMinimumVersion=3.0
 description=This plugin contains tools for teaching introductory QGIS.
-version=1.0
+version=1.0.1
 author=Maja Cannavo and Joseph Holler
-email=mcannavo@middlebury.edu
+email=josephh@middlebury.edu
 
 about=This plugin contains tools for teaching introductory QGIS.
 
@@ -23,6 +23,9 @@ hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
 changelog=1.0: 
 	- First release of MiMiQGIS!
+changelog=1.0.1: 
+	- Fix bug for case where the user does not have any SVG paths yet
+	- Fix SVG code so that SVGs can still be used in Illustrator
 
 # Tags are comma separated with spaces allowed
 tags=dissolve,svg icons,direction,azimuth,group
